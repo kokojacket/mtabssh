@@ -1,8 +1,8 @@
-# mtab-ssh一键部署mtab
+# mtab-ssh一键部署mtab+mysql
 ---
 
 ## 介绍
-`mtab.sh` 是一个用于在 Docker 容器中挂载目录并映射端口的 Bash 脚本。该脚本可用于快速设置 Docker 容器并将目录挂载到容器内，同时映射指定的端口。
+`mtab.sh` 是一个用于一键部署包含 mtab 和 MySQL 两个容器的 Docker Compose 配置文件的 Bash 脚本。该脚本可用于快速设置 Docker 容器并启动 mtab 和 MySQL 服务。
 
 ## 使用方法
 SSH 使用
