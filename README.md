@@ -7,7 +7,7 @@
 ## 使用方法
 SSH 使用
 ```
-bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" -- --file_location="/目录位置" --container_name="容器名称" --port_number="端口号"
+bash -c "$(curl -fsSL https://github.com/kokojacket/mtabssh/blob/main/mtab.sh)" -- --file_location="/目录位置" --container_name="容器名称" --port_number="端口号"
 ```
 
 **参数说明：**
@@ -17,12 +17,12 @@ bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" 
 
 **也可以不附加参数**
 ```
-bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" 
+bash -c "$(curl -fsSL https://github.com/kokojacket/mtabssh/blob/main/mtab.sh)" 
 ```
 
 ## 示例
 ```bash
-bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" -- --file_location="/home/user/data" --container_name="my_container" --port_number="8080"
+bash -c "$(curl -fsSL https://github.com/kokojacket/mtabssh/blob/main/mtab.sh)" -- --file_location="/home/user/data" --container_name="my_container" --port_number="8080"
 ```
 上述示例将会创建一个名为 `my_container` 的 Docker 容器，并将本地 `/home/user/data` 目录挂载到容器内，并映射端口 `8080`。
 
