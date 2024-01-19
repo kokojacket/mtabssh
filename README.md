@@ -1,5 +1,4 @@
-# mtabyi-
-ssh一键部署mtab
+# mtab-ssh一键部署mtab
 ---
 
 ## 介绍
