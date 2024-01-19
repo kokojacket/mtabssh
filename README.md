@@ -15,6 +15,11 @@ bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" 
 - `--container_name="容器名称"`: 指定要创建的 Docker 容器的名称。
 - `--port_number="端口号"`: 指定要映射的端口号。
 
+**也可以不附加参数**
+```
+bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" 
+```
+
 ## 示例
 ```bash
 bash -c "$(curl -fsSL https://file.kokojy.top:3000/api/public/dl/3_4vKbRT/docker/git/mtab.sh)" -- --file_location="/home/user/data" --container_name="my_container" --port_number="8080"
