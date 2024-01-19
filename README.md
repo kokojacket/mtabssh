@@ -22,7 +22,7 @@ bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)"
 
 ## 示例
 ```bash
-bash -c "$(curl -fsSL https://file.kokojy.top:3000/api/public/dl/3_4vKbRT/docker/git/mtab.sh)" -- --file_location="/home/user/data" --container_name="my_container" --port_number="8080"
+bash -c "$(curl -fsSL https://github.com/kokojacket/mtabyi-/blob/main/mtab.sh)" -- --file_location="/home/user/data" --container_name="my_container" --port_number="8080"
 ```
 上述示例将会创建一个名为 `my_container` 的 Docker 容器，并将本地 `/home/user/data` 目录挂载到容器内，并映射端口 `8080`。
 
