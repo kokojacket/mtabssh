@@ -5,7 +5,7 @@
 `mtab.sh` 是一个用于一键部署包含 mtab 和 MySQL 两个容器的 Docker Compose 配置文件的 Bash 脚本。该脚本可用于快速设置 Docker 容器并启动 mtab 和 MySQL 服务。
 
 ## 使用方法
-SSH 使用
+`SSH` 使用
 ```
 bash -c "$(curl -fsSL https://github.com/kokojacket/mtabssh/blob/main/mtab.sh)" -- --file_location="/目录位置" --container_name="容器名称" --port_number="端口号"
 ```
